@@ -1,0 +1,33 @@
+[
+    {
+        "title": "ABOUT US", "classValue": "about", "values": [
+            { "title": "OUR WHY", "path": "mission" },
+            { "title": "OUR TEAM", "path": "docs" },
+            { 
+                "title": "OUR SERVICE AREAS", "classValue": "areas", "values": [
+                    { "title": "FAIRFAX", "path": "areas/fairfax" },
+                    { "title": "GAITHERSBURG", "path": "areas/gaithersburg" },
+                    { "title": "TYSONS", "path": "areas/tysons" },
+                    { "title": "VIENNA", "path": "areas/vienna" }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "OUR WORK", "classValue": "work", "values": [
+            { "title": "OUR PROCESS", "path": "process" },
+            { 
+                "title": "OUR SERVICES", "classValue": "services", "values": [
+                    { "title": "ROOF REPAIR", "path": "services/roofrepair" },
+                    { "title": "ROOF REPLACEMENT", "path": "services/roofreplacement" },
+                    { "title": "SIDING REPLACEMENT", "path": "services/sidingreplacement" },
+                    { "title": "GUTTERS", "path": "services/gutters" }
+                ]
+            },
+            { "title": "OUR GALLERY", "path": "gallery" }
+        ]
+    },
+    { "title": "INSPECTION", "path": "inspection" },
+    { "title": "FAQS", "path": "faqs" },
+    { "title": "BLOG", "path": "blog" }
+]
