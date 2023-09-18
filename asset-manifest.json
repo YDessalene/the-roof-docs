@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/the-roof-docs/static/css/main.7eb1e786.css",
-    "main.js": "/the-roof-docs/static/js/main.2aa06369.js",
+    "main.js": "/the-roof-docs/static/js/main.921eb3a4.js",
     "static/js/787.6eb6c4e8.chunk.js": "/the-roof-docs/static/js/787.6eb6c4e8.chunk.js",
     "index.html": "/the-roof-docs/index.html",
     "main.7eb1e786.css.map": "/the-roof-docs/static/css/main.7eb1e786.css.map",
-    "main.2aa06369.js.map": "/the-roof-docs/static/js/main.2aa06369.js.map",
+    "main.921eb3a4.js.map": "/the-roof-docs/static/js/main.921eb3a4.js.map",
     "787.6eb6c4e8.chunk.js.map": "/the-roof-docs/static/js/787.6eb6c4e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7eb1e786.css",
-    "static/js/main.2aa06369.js"
+    "static/js/main.921eb3a4.js"
   ]
 }
