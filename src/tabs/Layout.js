@@ -1,5 +1,5 @@
 import './Layout.css';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import { useState, useEffect } from "react";
 import base64Images from '../assets/base64-images.config.json'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -47,7 +47,7 @@ const Layout = ({navItems}) => {
         </div>
       </>
     } else {
-      return <a href={item.path} className='navigation-item'>{item.title}</a>
+      return <a href={`/the-roof-docs/#/${item.path}`} className='navigation-item'>{item.title}</a>
     }
   }
 
@@ -92,7 +92,7 @@ const Layout = ({navItems}) => {
 
       <div class="nav-link-container">
         <div class="navigation-logo-container">
-          <a aria-current="page" href="/">
+          <a aria-current="page" href="/the-roof-docs">
             <div class="navigation-item navigation-logo">
               <img alt="logo" src={imageMap.logo} />
             </div>

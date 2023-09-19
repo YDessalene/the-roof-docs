@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import pathConfig from './paths.config.json';
 import Home from './tabs/home/Home';
 import NoPage from './tabs/no-page/NoPage';
@@ -64,16 +64,14 @@ function App() {
   }, [paths]);
 
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout navItems={paths} />}>
-          <Route index element={<Home />} />
-          <Route path="*" element={<NoPage />} />
-          <Route path="inspection" element={< Inspection />} />
-          {navPaths}
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<Layout navItems={paths} />}>
+        <Route index element={<Home />} />
+        <Route path="*" element={<NoPage />} />
+        <Route path="inspection" element={< Inspection />} />
+        {navPaths}
+      </Route>
+    </Routes>
   );
 }
 
