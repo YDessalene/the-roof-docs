@@ -58,51 +58,55 @@ const Layout = ({navItems}) => {
       titles.push(<img src={imageMap.slash} alt="Separator" />)
     }
     return <>
-      <div className='navigation-items-container'>
+      <div>
         {titles}
         <a href="https://portal.theroofdocs.com/" className='navigation-item'>SIGN IN</a>
       </div>
+      <a href="/the-roof-docs/#/inspection">
+        <button className='inspection-button'>get a free inspection</button>
+      </a>
     </>
   }
 
   return (
     <>
-      <div className="nav-info-bar">
-        <div class="sm-icon facebook-icon">
-          <a href="https://www.facebook.com/theroofdocs/" target="_blank" rel="noopener noreferrer">
-            <img src={imageMap.facebook} alt="facebook" />
-          </a>
+      <div className='navigation'>
+        <div className="nav-info-bar">
+          <div class="sm-icon facebook-icon">
+            <a href="https://www.facebook.com/theroofdocs/" target="_blank" rel="noopener noreferrer">
+              <img src={imageMap.facebook} alt="facebook" />
+            </a>
+          </div>
+          <div class="sm-icon linked-in-icon">
+            <a href="https://www.linkedin.com/company/the-roof-docs-llc/" target="_blank" rel="noopener noreferrer">
+              <img src={imageMap.linkedIn} alt="linked-in" />
+            </a>
+          </div>
+          <div class="contact-icon">
+            <a href="tel:7032393739" rel="noopener noreferrer">
+              <img src={imageMap.phone} alt="Call" /><label> 703-239-3738</label>
+            </a>
+          </div>
+          <div class="contact-icon">
+            <a href="mailto:info@theroofdocs.com" rel="noopener noreferrer">
+              <img src={imageMap.mail} alt="Email" /><label> info@theroofdocs.com</label>
+            </a>
+          </div>
         </div>
-        <div class="sm-icon linked-in-icon">
-          <a href="https://www.linkedin.com/company/the-roof-docs-llc/" target="_blank" rel="noopener noreferrer">
-            <img src={imageMap.linkedIn} alt="linked-in" />
-          </a>
-        </div>
-        <div class="contact-icon">
-          <a href="tel:7032393739" rel="noopener noreferrer">
-            <img src={imageMap.phone} alt="Call" /><label> 703-239-3738</label>
-          </a>
-        </div>
-        <div class="contact-icon">
-          <a href="mailto:info@theroofdocs.com" rel="noopener noreferrer">
-            <img src={imageMap.mail} alt="Email" /><label> info@theroofdocs.com</label>
-          </a>
+
+        <div class="nav-link-container">
+          <div class="navigation-logo-container">
+            <a aria-current="page" href="/the-roof-docs">
+              <div class="navigation-item navigation-logo">
+                <img alt="logo" src={imageMap.logo} height={80} width={140}/>
+              </div>
+            </a>
+          </div>
+          <div className="navigation-items-container">
+            {handleView()}
+          </div>
         </div>
       </div>
-
-      <div class="nav-link-container">
-        <div class="navigation-logo-container">
-          <a aria-current="page" href="/the-roof-docs">
-            <div class="navigation-item navigation-logo">
-              <img alt="logo" src={imageMap.logo} />
-            </div>
-          </a>
-        </div>
-        <div className="navigation-items-container">
-          {handleView()}
-        </div>
-      </div>
-
       <Outlet />
     </>
   )

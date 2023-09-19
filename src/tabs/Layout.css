@@ -62,7 +62,7 @@ img {
     color: #000;
     font-family: Poppins,serif,sans-serif;
     font-size: 19px;
-    padding: 0 30px;
+    padding: 0 8px;
     text-align: center;
     display: inline-block;
     line-height: 30px;
@@ -70,7 +70,7 @@ img {
 }
 
 .navigation-logo {
-    width: auto;
+    width: 190px;
     height: 100%;
     margin-top: 20px;
 }
@@ -86,6 +86,8 @@ img {
     position: relative;
     margin-right: 20px;
     float: right;
+    display: inline-flex;
+    align-items: center;
 }
 
 .nav-dropdown {
@@ -157,4 +159,19 @@ img {
 
 .nav-dropdown .navigation-item:hover {
     color: red;
+}
+
+.inspection-button {
+    height: 50px;
+    width: 270px;
+    background-color: #b70808;
+    color: #fff;
+    font: 20px Poppins,serif,sans-serif;
+    text-transform: uppercase;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+
+.navigation {
+    box-shadow: 0 1px 10px #999;
 }
