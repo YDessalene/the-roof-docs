@@ -1,3 +1,11 @@
+.navigation {
+    box-shadow: 0 1px 10px #999;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 10001;
+}
+
 .nav-info-bar {
     width: 100%;
     height: 30px;
@@ -29,6 +37,7 @@
     color: #302f2f;
     line-height: 30px;
     font-family: Poppins,sans-serif,serif;
+    font-weight: 600;
 }
 
 a {
@@ -67,6 +76,7 @@ img {
     display: inline-block;
     line-height: 30px;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .navigation-logo {
@@ -170,8 +180,5 @@ img {
     text-transform: uppercase;
     border-radius: 12px;
     margin-left: 20px;
-}
-
-.navigation {
-    box-shadow: 0 1px 10px #999;
+    font-weight: 600;
 }
