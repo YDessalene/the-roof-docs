@@ -1,13 +1,18 @@
 import './Home.css';
 import '../../App.css';
-import rooferIntro from '../../assets/roofer-intro.mp4';
-import roofingJpg from '../../assets/roofing.jpg';
-import sidingJpg from '../../assets/siding.jpg';
-import guttersJpg from '../../assets/gutters.jpg';
-import diagnose from '../../assets/home-diagnose.png';
-import inspect from '../../assets/home-inspect.png';
-import operate from '../../assets/home-operate.png';
-import prescribe from '../../assets/home-prescribe.png';
+import rooferIntro from '../../assets/home/roofer-intro.mp4';
+import roofingJpg from '../../assets/home/roofing.jpg';
+import sidingJpg from '../../assets/home/siding.jpg';
+import guttersJpg from '../../assets/home/gutters.jpg';
+import diagnose from '../../assets/home/diagnose.png';
+import inspect from '../../assets/home/inspect.png';
+import operate from '../../assets/home/operate.png';
+import prescribe from '../../assets/home/prescribe.png';
+import mission from '../../assets/home/mission.png';
+import integrity from '../../assets/home/integrity.png';
+import plyIcon from '../../assets/home/plyIcon.png';
+import sentryIcon from '../../assets/home/plyIcon.png';
+import googleLogo from '../../assets/home/googleLogo.png';
 import base64Images from '../../assets/base64-images.config.json';
 import { useState, useEffect } from "react";
 
@@ -144,9 +149,9 @@ const Home = () => {
                 <p class='intro-header'> The Roof-ER Difference </p>
                 <p class='intro-description'> A FREE, HONEST roof inspection. Every time. </p>
                 <a href='/the-roof-docs/#/inspection'>
-                    <div class='free-inspection-button-container'>
-                        <p class='home-inspection-label'> Sign Up For A Free Inspection </p>
-                        <img class='home-inspection-img' src={imageMap.arrowSmallRight} alt='Arrow' />
+                    <div class='arrow-button-container'>
+                        <p> Sign Up For A Free Inspection </p>
+                        <img src={imageMap.arrowBoxRight} alt='Arrow' />
                     </div>
                 </a>
             </div>
@@ -167,6 +172,55 @@ const Home = () => {
             {process}
             <div class='process-arrow-container right'>
                 <img id='right' src={imageMap.arrowLargeRight} alt='Next' onClick={() => {processRight()}} />
+            </div>
+        </div>
+        <div className='work-banner-container'>
+            <div className='work-banner-section'>
+                <img src={mission} alt="Who We Are" />
+                <div class="work-info-container">
+                    <p class="small-header"> Who We Are </p>
+                    <p class="large-header"> Our Mission </p>
+                    <p class="work-banner-description"> We are setting the new standard for roofing contractors. Our team is trained and held accountable to prioritize your best interest. </p>
+                    <a href="/the-roof-docs/#/docs">
+                        <div class="arrow-button-container">
+                            <p> Meet the Docs </p>
+                            <img src={imageMap.arrowBoxRight} alt="Arrow" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div className='work-banner-section'>
+                <img src={integrity} alt="How We Do It" />
+                <div class="work-info-container">
+                    <p class="small-header"> How We Do It </p>
+                    <p class="large-header">Integrity. Quality. Simplicity. </p>
+                    <p class="work-banner-description"> By staying committed to our core values, we offer a service to our customers that they can't wait to tell their friends and family about. </p>
+                    <a href="/the-roof-docs/#/gallery">
+                        <div class="arrow-button-container">
+                            <p class="arrow-button-label"> View Our Work </p>
+                            <img class="arrow-button-img" src={imageMap.arrowBoxRight} alt="Arrow" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div className='products-background'>
+            <div class="products-container">
+                <img src={imageMap.gafIcon} alt="Product Icon" />
+                <img src={imageMap.ikoIcon} alt="Product Icon" />
+                <img src={imageMap.certIcon} alt="Product Icon" />
+                <img src={imageMap.hardieIcon} alt="Product Icon" />
+                <img src={plyIcon} alt="Product Icon" />
+                <img src={sentryIcon} alt="Product Icon" />
+            </div>
+        </div>
+        <div class="google-reviews-background">
+            <div class="reviews-content">
+                <p class="success-text"> Why we do it </p>
+                <p class=" success-subheader"> Our customers are our reason. Read our Roof-ER reviews.</p>
+                <div class="social-review-icons">
+                    <img src={googleLogo} alt="Google" />
+                </div>
             </div>
         </div>
     </>
