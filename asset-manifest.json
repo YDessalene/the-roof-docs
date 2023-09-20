@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/the-roof-docs/static/css/main.ae9e0af2.css",
-    "main.js": "/the-roof-docs/static/js/main.62869fda.js",
+    "main.css": "/the-roof-docs/static/css/main.7554802b.css",
+    "main.js": "/the-roof-docs/static/js/main.9c5efcac.js",
     "static/js/787.0625f6a6.chunk.js": "/the-roof-docs/static/js/787.0625f6a6.chunk.js",
     "static/media/roofer-intro.mp4": "/the-roof-docs/static/media/roofer-intro.3ba574c54446ac43f147.mp4",
     "static/media/integrity.png": "/the-roof-docs/static/media/integrity.cce10beb87a6ba4029df.png",
@@ -9,19 +9,22 @@
     "static/media/roofing.jpg": "/the-roof-docs/static/media/roofing.9c14d14394b0539702ba.jpg",
     "static/media/gutters.jpg": "/the-roof-docs/static/media/gutters.eb1bd38c6f23143a64d9.jpg",
     "static/media/siding.jpg": "/the-roof-docs/static/media/siding.d2aa05d014e44b73df42.jpg",
+    "static/media/certLogoFooter.png": "/the-roof-docs/static/media/certLogoFooter.1cc1829a5a930519c06c.png",
     "static/media/inspect.png": "/the-roof-docs/static/media/inspect.33979135f8e95b470426.png",
     "static/media/operate.png": "/the-roof-docs/static/media/operate.e22b75d401026e9ebc4e.png",
     "static/media/googleLogo.png": "/the-roof-docs/static/media/googleLogo.d97866bf04be5db5b4d7.png",
+    "static/media/homeAdvisorLogo.png": "/the-roof-docs/static/media/homeAdvisorLogo.ca5a869091c75419abbf.png",
     "static/media/diagnose.png": "/the-roof-docs/static/media/diagnose.2f5623e4bb6cc112d8e3.png",
     "static/media/prescribe.png": "/the-roof-docs/static/media/prescribe.58f80b25d50508cb2235.png",
+    "static/media/rooferLogoWhite.png": "/the-roof-docs/static/media/rooferLogoWhite.2eee76837fcba170aacd.png",
     "static/media/plyIcon.png": "/the-roof-docs/static/media/plyIcon.348018e49a745ad8a43e.png",
     "index.html": "/the-roof-docs/index.html",
-    "main.ae9e0af2.css.map": "/the-roof-docs/static/css/main.ae9e0af2.css.map",
-    "main.62869fda.js.map": "/the-roof-docs/static/js/main.62869fda.js.map",
+    "main.7554802b.css.map": "/the-roof-docs/static/css/main.7554802b.css.map",
+    "main.9c5efcac.js.map": "/the-roof-docs/static/js/main.9c5efcac.js.map",
     "787.0625f6a6.chunk.js.map": "/the-roof-docs/static/js/787.0625f6a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae9e0af2.css",
-    "static/js/main.62869fda.js"
+    "static/css/main.7554802b.css",
+    "static/js/main.9c5efcac.js"
   ]
 }
