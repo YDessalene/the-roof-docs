@@ -362,4 +362,113 @@ p {
 .social-review-icons img {
     height: 100%;
     width: auto;
+    cursor: pointer;
+}
+
+.reviews-holder {
+    height: 350px;
+    margin-top: 50px;
+}
+
+.reviews-arrow-container {
+    width: 10%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.reviews-arrow-container img {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.reviews-arrow-container.right {
+    float: right;
+}
+
+.reviews-arrow-container.left {
+    float: left;
+}
+
+.google-reviews-list {
+    width: 80%;
+    display: -ms-flexbox;
+    display: flex;
+    float: left;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.google-reviews-list .review {
+    width: 40%;
+    height: 100%;
+}
+
+.review-user-info {
+    width: 100%;
+    height: 90px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.review-user-info .review-photo-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.review-user-info .review-photo-container img {
+    width: 60px;
+    height: 60px;
+}
+
+.review-name-rating-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.review-name-rating-container .review-name {
+    font: 22px PoppinsMedium,sans-serif,serif;
+    margin-bottom: 0;
+    text-indent: 15px;
+}
+
+.star-rating-container {
+    width: 100%;
+    height: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 5px;
+}
+
+.review-comment-container {
+    width: calc(100% - 75px);
+    float: right;
+    max-height: 325px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.review-comment-container .LinesEllipsis {
+    font: 16px Poppins,sans-serif,serif;
+    color: #302f2f;
+    white-space: pre-wrap;
 }

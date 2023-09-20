@@ -103,9 +103,7 @@ img {
 .nav-dropdown {
     box-shadow: 0 3px 5px 1px rgba(0,0,0,0.1);
     position: absolute;
-    /* width: 170px; */
     top: calc(100% - 10px);
-    /* height: 120px; */
     background-color: #fff;
     visibility: hidden;
     border-bottom-right-radius: 5px;
@@ -181,4 +179,208 @@ img {
     border-radius: 12px;
     margin-left: 20px;
     font-weight: 600;
+}
+
+.footer-banner {
+    background-color: #000;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 350px;
+    z-index: 9998;
+}
+
+.footer-content {
+    height: 65%;
+    min-height: 200px;
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-content .footer-contact {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.footer-content .footer-contact .footer-logo-image {
+    width: 60%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.footer-content .footer-contact .footer-contact-icon {
+    width: 100%;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+}
+
+.footer-content .footer-contact .footer-contact-icon label {
+    text-align: left;
+    margin-left: 10px;
+    /* display: inline-block; */
+    color: #fff;
+    font: 18px Poppins,sans-serif,Serif;
+    float: left;
+    margin-bottom: 0;
+}
+
+.footer-content .footer-contact .footer-contact-icon img {
+    float: left;
+    margin-top: 5px;
+    /* display: inline-block; */
+}
+
+.footer-content .footer-contact .footer-contact-icon.phone img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer-content .footer-contact .footer-contact-icon.email img {
+    height: 15px;
+    width: 20px;
+}
+
+.footer-content .footer-contact .footer-contact-icon.map img {
+    height: 20px;
+    width: 15px;
+}
+
+.footer-content .footer-services {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-content .footer-services h3 {
+    font: 20px Poppins,serif,sans-serif;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.footer-content .footer-services p {
+    float: left;
+    font: 18px Poppins,serif,sans-serif;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.footer-content .footer-services a {
+    color: #fff;
+}
+
+.footer-content .footer-services .service-icon {
+    font: 18px PoppinsBold,serif,sans-serif;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.footer-content .footer-social, .footer-content .footer-social .social-links {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.footer-content .footer-social {
+    max-width: 300px;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.footer-content .footer-social .social-links {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.footer-content .footer-social .social-links img {
+    height: 100%;
+    width: auto;
+}
+
+.footer-content .footer-social .certs {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-content .footer-social .certs img {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer-copyright .policy-text, .footer-copyright p {
+    color: #fff;
+    font: 14px Poppins,serif,sans-serif;
+}
+
+.footer-banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-banner .banner-icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50px);
+}
+
+.footer-banner .footer-license-text {
+    text-align: left;
+    /* display: inline-block; */
+    color: #fff;
+    font: 18px Poppins,sans-serif,Serif;
+    float: left;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.footer-banner .footer-license-text.bottom {
+    margin-top: 10px;
+}
+
+.footer-copyright p {
+    line-height: 60px;
+    margin-right: 15px;
+    margin-bottom: 0;
 }
