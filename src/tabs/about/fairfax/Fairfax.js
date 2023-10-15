@@ -1,7 +1,10 @@
 import './Fairfax.css';
 import '../../../App.css';
+import base64Images from '../../../assets/base64-images.config.json';
 
 const Fairfax = () => {
+    const imageMap = base64Images;
+
     return <>
         <div class="services-container">
             <div class="services-banner">
