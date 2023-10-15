@@ -22,7 +22,7 @@ const Layout = ({navItems}) => {
     }
   }, []);
 
-  const isMobile = (width <= 850);
+  const isMobile = (width < 1100);
   const imageMap = base64Images;
 
   function handleView() {

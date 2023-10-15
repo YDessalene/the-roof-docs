@@ -12,7 +12,7 @@ import mission from '../../assets/home/mission.png';
 import integrity from '../../assets/home/integrity.png';
 import plyIcon from '../../assets/home/plyIcon.png';
 import sentryIcon from '../../assets/home/plyIcon.png';
-import googleLogo from '../../assets/home/googleLogo.png';
+import googleLogo from '../../assets/googleLogo.png';
 import base64Images from '../../assets/base64-images.config.json';
 import { useState, useEffect } from "react";
 
@@ -231,11 +231,7 @@ const Home = () => {
                                 <div className="review-name-rating-container">
                                     <p className="review-name"> Koorosh Mehr </p>
                                     <div className="star-rating-container">
-                                        <div className="star"></div>
-                                        <div className="star"></div>
-                                        <div className="star"></div>
-                                        <div className="star"></div>
-                                        <div className="star"></div>    
+
                                     </div>
                                 </div>
                             </div>
