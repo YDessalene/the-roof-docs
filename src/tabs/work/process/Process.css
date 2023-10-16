@@ -1,0 +1,156 @@
+.work-banner {
+    background: rgba(0,0,0,0) url('../../../assets/banner.png') 50% repeat padding-box;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 290px;
+}
+
+.work-banner-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.work-banner-text-container .banner-text-small {
+    text-transform: uppercase;
+    color: #fff;
+    font: 24px Poppins,serif,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 0 0 2px #000;
+}
+
+.work-banner-text-container .banner-text-large {
+    color: #fff;
+    font: 56px Poppins,serif,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
+}
+
+.work-banner .banner-icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
+.work-process-container .work-process-banner {
+    height: 250px;
+    width: 100%;
+    border-bottom: 2px solid #e6e6e6;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+}
+
+.work-process-container .work-process-banner .main-text {
+    font: 48px Poppins,serif,sans-serif;
+    font-weight: 600;
+    color: #b70808;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.work-process-container .work-process-banner .small-text {
+    font: 25px Poppins,serif,sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.work-process-container .work-process-content {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.work-process-container .work-process-content .work-item-container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 50px;
+}
+
+.work-process-container .work-process-content .work-item-container .work-item-icon-container {
+    width: 150px;
+}
+
+.work-process-container .work-process-content .work-item-container .work-item-icon-container img {
+    width: 140px;
+    height: auto;
+}
+
+.work-process-container .work-process-content .work-item-container .work-item-info-container {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.work-process-container .work-process-content .work-item-container .work-item-info-container .step-header {
+    width: 100%;
+    font: 48px Poppins,serif,sans-serif;
+    font-weight: 600;
+    color: #b70808;
+    border-bottom: 1px solid red;
+    padding-left: 10px;
+}
+
+.work-process-container .work-process-content .work-item-container .work-item-info-container .step-info {
+    width: 100%;
+    font: 20px Poppins,serif,sans-serif;
+    padding-left: 10px;
+}
+
+.work-step-item-container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.work-step-item-container p {
+    font: 16px Poppins,sans-serif,serif;
+    padding-left: 10px;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.work-step-item-container img {
+    height: 20px;
+    width: auto;
+}
+
+.roofDocsRed {
+    color: #b70808;
+}
+
+@media (max-width: 1500px) {
+    .work-banner-text-container .banner-text-large {
+        font-size: 42px !important;
+    }
+}
+
+@media (max-width: 849px) {
+    .work-process-container .work-process-banner .main-text {
+        font-size: 36px !important;
+    }
+
+    .work-process-container .work-process-banner .small-text {
+        font-size: 22px !important;
+    }
+}
+
