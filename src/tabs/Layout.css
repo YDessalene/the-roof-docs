@@ -160,6 +160,7 @@ img {
     text-align: left;
     font-size: 16px;
     padding: 0 10px;
+    font-weight: 500;
 }
 
 .nav-dropdown .navigation-item:hover {
