@@ -1,0 +1,197 @@
+.work-banner {
+    background: rgba(0,0,0,0) url('../../../assets/banner.png') 50% repeat padding-box;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 290px;
+}
+
+.work-banner-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+.work-banner-text-container .banner-text-small {
+    text-transform: uppercase;
+    color: #fff;
+    font: 24px Poppins,serif,sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 0 0 2px #000;
+    font-weight: 700;
+}
+
+.work-banner-text-container .banner-text-large {
+    color: #fff;
+    font: 56px Poppins,serif,sans-serif;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
+    font-weight: 600;
+}
+
+.work-banner .banner-icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
+.gallery-container {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.gallery-container .main-text {
+    font: 62px Poppins,serif,sans-serif;
+    color: #b70808;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.gallery-container .small-text {
+    font: 28px Poppins,serif,sans-serif;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.gallery-container .gallery-images-container {
+    width: 90%;
+    margin: 0 auto 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.gallery-container .gallery-images-container .work-display-image-container {
+    width: 27%;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.3215686274509804);
+    border: 10px solid #fff;
+    cursor: pointer;
+}
+
+.gallery-container .gallery-show-photos-button {
+    background-color: #b70808;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 12px;
+    font: 24px Poppins,serif,sans-serif;
+    height: 52px;
+    width: 200px;
+    max-width: 90vw;
+    margin-left: calc(50% - 100px);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.gallery-container .gallery-images-container .work-display-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.modalContainer {
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10002;
+}
+
+.view-work-modal-content {
+    height: 625px;
+    width: 900px;
+    margin-top: calc(50vh - 313px);
+    margin-left: calc(50vw - 450px);
+    background-color: #fff;
+    border-radius: 23px;
+    position: relative;
+}
+
+.view-work-modal-content .view-work-image-container {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.view-work-modal-content .view-work-image-container img {
+    max-width: 95%;
+    max-height: 90%;
+    border-radius: 23px;
+}
+
+.view-work-modal-content .view-work-icon-container {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+.doc-expand-icon {
+    cursor: pointer;
+}
+
+@media (max-width: 1500px) and (min-width: 850px) {
+    .gallery-container {
+        margin: 50px auto;
+    }
+
+    .view-work-modal-content {
+        height: 500px;
+        width: 750px;
+        margin-top: calc(50vh - 313px);
+        margin-left: calc(50vw - 375px);
+    }
+}
+
+@media (max-width: 849px) {
+    .gallery-container {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .gallery-container .main-text {
+        font-size: 42px;
+    }
+
+    .gallery-container .small-text {
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    .gallery-container .gallery-images-container {
+        width: 95%;
+    }
+
+    .gallery-container .gallery-images-container .work-display-image-container {
+        width: 40%;
+    }
+
+    .view-work-modal-content {
+        height: 500px;
+        width: 90%;
+        margin-top: calc(50vh - 200px);
+        margin-left: calc(50vw - 45%);
+    }
+}
