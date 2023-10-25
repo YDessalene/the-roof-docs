@@ -177,6 +177,7 @@ img {
     border-radius: 12px;
     margin-left: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .footer-banner {

@@ -1,0 +1,292 @@
+.meet-the-docs-container .docs-banner {
+    background: rgba(0,0,0,0) url('../../../assets/banner.png') 50% repeat padding-box;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 290px;
+}
+
+.meet-the-docs-container .docs-banner-text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.meet-the-docs-container .docs-banner-text-container .banner-text-small {
+    text-transform: uppercase;
+    color: #fff;
+    font: 24px Poppins,serif,sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: 0 0 2px #000;
+}
+
+.meet-the-docs-container .docs-banner-text-container .banner-text-large {
+    color: #fff;
+    font: 56px Poppins,serif,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
+}
+
+.meet-the-docs-container .docs-banner .banner-icon {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 50px);
+}
+
+.meet-the-docs-container .docs-oath {
+    width: 80%;
+    margin: 50px auto 0;
+    padding-left: 15px;
+    border-left: 4px solid #b70808;
+    font: 28px Poppins,serif,sans-serif;
+    font-weight: 600;
+}
+
+.meet-the-docs-container .docs-list-container {
+    width: 80%;
+    margin: 100px auto 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.doc-container {
+    width: 30%;
+    min-width: 350px;
+    height: 450px;
+    background-color: #fff;
+    position: relative;
+}
+
+.doc-container .doc-image-container {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0,0,0,.9);
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.doc-container .doc-image-container img {
+    width: 350px;
+    height: auto;
+}
+
+.doc-container .doc-icon-container {
+    position: absolute;
+    top: 0;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.doc-container .doc-icon-container img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.doc-container .doc-name {
+    text-transform: uppercase;
+    text-align: center;
+    font: 28px Poppins,serif,sans-serif;
+    font-weight: 600;
+    color: #b70808;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.hiddenModal {
+    display: none;
+}
+
+.modalContainer {
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 10002 !important;
+}
+
+.view-doc-modal-content {
+    height: 800px;
+    width: 600px;
+    margin-top: calc(50vh - 400px);
+    margin-left: calc(50vw - 300px);
+    background-color: #fff;
+    border-radius: 23px;
+}
+
+.view-doc-modal-content .doc-container-modal {
+    border-radius: 23px;
+    padding-top: 40px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-image-container-modal {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0,0,0,.9);
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-image-container-modal img {
+    width: 300px;
+    height: auto;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-icon-container-modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-icon-container-modal img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-name {
+    text-transform: uppercase;
+    text-align: center;
+    font: 28px Poppins,serif,sans-serif;
+    font-weight: 600;
+    color: #b70808;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-bio-modal-content {
+    background-color: #e6e6e6;
+    height: 335px;
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 96%;
+    margin-left: 2%;
+    overflow: auto;
+}
+
+.view-doc-modal-content .doc-container-modal .doc-bio-modal-content p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: auto;
+    font: 17px Poppins,sans-serif,serif;
+}
+
+@media (max-width: 1500px) and (min-width: 850px) {
+    .meet-the-docs-container .docs-banner-text-container .banner-text-large {
+        font-size: 35px;
+    }
+
+    .meet-the-docs-container .docs-list-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 849px) and (min-width: 700px) {
+    .meet-the-docs-container .docs-banner-text-container .banner-text-large {
+        font-size: 36px;
+    }
+
+    .meet-the-docs-container .docs-oath {
+        font-size: 20px;
+    }
+
+    .meet-the-docs-container .docs-list-container {
+        width: 90%;
+        margin: 50px auto 0;
+    }
+
+    .doc-container {
+        width: 40%;
+        min-width: 250px;
+        height: 350px;
+    }
+
+    .doc-container .doc-image-container {
+        width: 250px;
+        height: 250px;
+    }
+
+    .doc-container .doc-image-container img {
+        width: 250px;
+        height: auto;
+    }
+
+    .doc-container .doc-icon-container {
+        right: 0;
+        width: 70px;
+        height: 70px;
+    }
+
+    .doc-container .doc-icon-container img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 699px) {
+    .meet-the-docs-container .docs-banner-text-container .banner-text-large {
+        font-size: 30px;
+    }
+
+    .meet-the-docs-container .docs-banner-text-container .banner-text-small {
+        font-size: 20px;
+    }
+
+    .meet-the-docs-container .docs-oath {
+        font-size: 17px;
+    }
+
+    .meet-the-docs-container .docs-list-container {
+        width: 90%;
+        margin: 50px auto 0;
+    }
+
+    .doc-container {
+        width: 100%;
+        height: 375px;
+    }
+
+    .doc-container .doc-image-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .doc-container .doc-image-container img {
+        width: 300px;
+        height: auto;
+    }
+
+    .doc-container .doc-icon-container {
+        display: none;
+    }
+}

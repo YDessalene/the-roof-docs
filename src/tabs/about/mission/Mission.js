@@ -23,7 +23,7 @@ const Mission = () => {
                     <div class="work-item-container">
                         <div class="work-item-info-container">
                             <p class="step-header"> The ROOF<span style={{ color: "black" }}>ER</span> Mission </p>
-                            <p class="step-info"> At <a href="/the-roof-docs">ROOF<span class="logo-text">ER</span></a>, our mission is to hold a fiduciary responsibility to our customers, plain and simple. In an industry known for poor workmanship, lack of communication, and at times, <a href="/the-roof-docs/#/blog/avoiding-roofing-scams">outright deceit</a>, we seek to restore the name of exterior remodeling contractors nationwide. By committing to our core values of integrity, quality, and simplicity, we promise to deliver an experience every homeowner wants when remodeling their home: <span class="step-info-bold">a simple and straightforward quality installation for a fair and honest price.</span>  </p>
+                            <p class="step-info"> At ROOF<span class="logo-text">ER</span>, our mission is to hold a fiduciary responsibility to our customers, plain and simple. In an industry known for poor workmanship, lack of communication, and at times, <a href="/the-roof-docs/#/blog/avoiding-roofing-scams">outright deceit</a>, we seek to restore the name of exterior remodeling contractors nationwide. By committing to our core values of integrity, quality, and simplicity, we promise to deliver an experience every homeowner wants when remodeling their home: <span class="step-info-bold">a simple and straightforward quality installation for a fair and honest price.</span>  </p>
                         </div>
                     </div>
                 </div>
