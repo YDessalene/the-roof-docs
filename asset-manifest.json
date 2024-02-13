@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/the-roof-docs/static/css/main.8c6ed9b1.css",
+    "main.css": "/the-roof-docs/static/css/main.6874b8de.css",
     "main.js": "/the-roof-docs/static/js/main.8085d9ce.js",
     "static/js/787.6eb6c4e8.chunk.js": "/the-roof-docs/static/js/787.6eb6c4e8.chunk.js",
     "static/media/roofer-intro.mp4": "/the-roof-docs/static/media/roofer-intro.3ba574c54446ac43f147.mp4",
@@ -80,12 +80,12 @@
     "static/media/rooferLogoWhite.png": "/the-roof-docs/static/media/rooferLogoWhite.2eee76837fcba170aacd.png",
     "static/media/plyIcon.png": "/the-roof-docs/static/media/plyIcon.348018e49a745ad8a43e.png",
     "index.html": "/the-roof-docs/index.html",
-    "main.8c6ed9b1.css.map": "/the-roof-docs/static/css/main.8c6ed9b1.css.map",
+    "main.6874b8de.css.map": "/the-roof-docs/static/css/main.6874b8de.css.map",
     "main.8085d9ce.js.map": "/the-roof-docs/static/js/main.8085d9ce.js.map",
     "787.6eb6c4e8.chunk.js.map": "/the-roof-docs/static/js/787.6eb6c4e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c6ed9b1.css",
+    "static/css/main.6874b8de.css",
     "static/js/main.8085d9ce.js"
   ]
 }
