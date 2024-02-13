@@ -645,8 +645,16 @@ p {
         display: block;
     }
 
+    .work-banner-container .work-banner-section img {
+        width: 100%;
+    }
+
     .work-banner-container .work-banner-section .work-info-container {
         left: 5%;
         width: 90%;
+    }
+
+    .products-container {
+        width: 100% !important;
     }
 }
