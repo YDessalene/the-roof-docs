@@ -1,9 +1,22 @@
 .navigation {
     box-shadow: 0 1px 10px #999;
-    position: sticky;
     top: 0;
     background-color: #fff;
     z-index: 10001;
+}
+
+.navigation-pos {
+    position: sticky;
+}
+
+.navigation-icon {
+    color: #b70808;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.drawer-box {
+    height: auto;
 }
 
 .nav-info-bar {
@@ -432,5 +445,30 @@ img {
         display: inline-block;
         line-height: 40px;
         text-transform: uppercase;
+    }
+
+    .footer-services {
+        display: none !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .footer-social {
+        display: none !important;
+    }
+
+    .footer-content {
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .sm-icon {
+        display: none;
+    }
+
+    .contact-icon label {
+        font-size: 11px !important;
     }
 }

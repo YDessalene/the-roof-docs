@@ -268,3 +268,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 499px) {
+    .work-process-container .work-process-content .work-item-container {
+        flex-direction: column;
+    }
+}

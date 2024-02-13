@@ -1,6 +1,7 @@
 import './Inspection.css';
 import '../../App.css';
 import base64Images from '../../assets/base64-images.config.json';
+import inspect from '../../assets/inspection/inspect.png';
 
 const Inspections = () => {
     const imageMap = base64Images;
@@ -188,7 +189,7 @@ const Inspections = () => {
                 <div class="report-container">
                     <div class="inspection-work-item-container">
                         <div class="inspection-work-item-icon-container">
-                            <img src="/static/media/img_1inspect.b343d150.png" alt="Step" />
+                            <img src={inspect} alt="Step" />
                         </div><div class="inspection-work-item-info-container">
                             <p class="inspection-step-header"> 1. Inspect </p>
                             <p class="inspection-step-info"> When you use our online scheduling tool to schedule an inspection, one of our trained <a href="https://www.theroofdocs.com/docs">Roof Docs</a> will arrive on-site at the time and date requested in order to inspect your property. We'll let you know we've arrived with a phone call, but will perform the inspection without any direct interaction.  </p>

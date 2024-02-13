@@ -7,9 +7,11 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import rooferLogoWhite from '../assets/home/rooferLogoWhite.png';
 import homeAdvisorLogo from '../assets/home/homeAdvisorLogo.png';
 import certLogoFooter from '../assets/home/certLogoFooter.png';
+import { Drawer } from '@mui/material';
 
 const Layout = ({navItems}) => {
   const [width, setWidth] = useState(window.innerWidth);
+  const [isOpen, setOpen] = useState(false);
 
   useEffect(() => {
     function handleWindowSizeChange() {
@@ -34,7 +36,12 @@ const Layout = ({navItems}) => {
   }
 
   function mobileView() {
-    return <FontAwesomeIcon icon={faBars} />
+    return <div>
+      <FontAwesomeIcon className='navigation-icon' icon={faBars} onClick={() => setOpen(true)}/>
+      <Drawer sx={{'& .MuiPaper-root': {height: 'auto'}}} anchor='right' open={isOpen} onClose={() => setOpen(false)}>
+        <div>test</div>
+      </Drawer>
+    </div>
   }
 
   function browserDropdown(item) {
@@ -73,7 +80,7 @@ const Layout = ({navItems}) => {
 
   return (
     <>
-      <div className='navigation'>
+      <div className={`navigation ${!isOpen ? 'navigation-pos' : ''}`}>
         <div className="nav-info-bar">
           <div class="sm-icon facebook-icon">
             <a href="https://www.facebook.com/theroofdocs/" target="_blank" rel="noopener noreferrer">
